@@ -669,7 +669,7 @@ $$
 | $\bigg( x \bigg)$| \bigg( x \bigg) |     |
 | $\Bigg( x \Bigg)$| \Bigg( x \Bigg) |     |
 | $\Bigg(\bigg(\Big(\big((x)\big)\Big)\bigg)\Bigg)$ | \Bigg(\bigg(\Big(\big((x)\big)\Big)\bigg)\Bigg) |     |
-| $\Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg]$ | \Bigg\[\bigg\[\Big\[\big\[\[x\]\big\]\Big\]\bigg\]\Bigg\] |     |
+| $\Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg]$ | \Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg] |     |
 | $\Bigg\langle\bigg\langle\Big\langle\big\langle\langle x \rangle \big\rangle\Big\rangle\bigg\rangle\Bigg\rangle$| \Bigg\langle\bigg\langle\Big\langle\big\langle\langle x \rangle\big\rangle\Big\rangle\bigg\rangle\Bigg\rangle |     |
 | $\Bigg\lvert\bigg\lvert\Big\lvert\big\lvert\lvert x \rvert\big\rvert\Big\rvert\bigg\rvert\Bigg\rvert$| \Bigg\lvert\bigg\lvert\Big\lvert\big\lvert\lvert x \rvert\big\rvert\Big\rvert\bigg\rvert\Bigg\rvert |     |
 | $\Bigg\lVert\bigg\lVert\Big\lVert\big\lVert\lVert x \rVert\big\rVert\Big\rVert\bigg\rVert\Bigg\rVert$ | \Bigg\lVert\bigg\lVert\Big\lVert\big\lVert\lVert x \rVert\big\rVert\Big\rVert\bigg\rVert\Bigg\rVert |     |
