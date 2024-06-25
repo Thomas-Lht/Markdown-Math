@@ -747,3 +747,76 @@ $$x=a_0 + \cfrac{1^2}{a_ 1+\cfrac{2^2}{a_2+\cfrac{3^2}{a_3+ \cfrac{4^2}{a_4+...}
 | $\ln{a + b}$ | \ln{a + b} | 以e为底，对数函数使用`\ln{}` |
 | $\log_{a}^{b}$ | \log_{a}^{b} | 对数函数使用`\log_{a}^{b}` |
 | $\lg{a + b}$ | \lg{a + b} | 以10为底，对数函数使用`\ln{}` |
+
+## <a id="t21"></a><a id="_748"></a>二元运算符
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $\pm$ | \pm | 正负号 |
+| $\mp$ | \mp | 负正号 |
+| $\times$ | \times | 乘号  |
+| $\div$ | \div | 除号  |
+| $\ast$ | \ast | 星号  |
+| $\star$ | \star |     |
+| $\mid$ | \mid | 竖线  |
+| $\nmid$ | \nmid |     |
+| $\circ$ | \circ | 圆圈  |
+| $\bullet$ | \bullet |     |
+| $\cdot$ | \cdot | 点 |
+| $\wr$ | \wr |     |
+| $\diamond$ | \diamond |     |
+| $\Diamond$ | \Diamond |     |
+| $\triangle$ | \triangle |     |
+| $\bigtriangleup$ | \bigtriangleup |     |
+| $\bigtriangledown$ | \bigtriangledown |     |
+| $\triangleleft$ | \triangleleft |     |
+| $\triangleright$ | \triangleright |     |
+| $\lhd$ | \lhd |     |
+| $\rhd$ | \rhd |     |
+| $\unlhd$ | \unlhd |     |
+| $\unrhd$ | \unrhd |     |
+| $\circ$ | \circ |     |
+| $\bigcirc$ | \bigcirc |     |
+| $\odot$ | \\odot |     |
+| $\bigodot$ | \bigodot | 点积  |
+| $\oslash$ | \oslash |     |
+| $\ominus$ | \ominus |     |
+| $\otimes$ | \otimes |     |
+| $\bigotimes$ | \bigotimes | 克罗内克积 |
+| $\oplus$ | \oplus |     |
+| $\bigoplus$ | \bigoplus | 异或  |
+| $\dagger$ | \dagger |     |
+| $\ddagger$ | \ddagger |     |
+| $\amalg$ | \amalg |     |
+
+## <a id="t22"></a><a id="_788"></a>关系符号
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| --- | --- | --- |
+| $\leq$ | \leq | 小于等于 |
+| $\geq$ |\geq | 大于等于 |
+| $\equiv$ | \equiv | 全等于 |
+| $\models$ | \models |     |
+| $\prec$ | \prec |     |
+| $\succ$ | \succ |     |
+| $\sim$ | \sim |     |
+| $\perp$ | \perp |     |
+| $\preceq$ | \preceq |     |
+| $\succeq$ | \succeq |     |
+| $\simeq$ | \simeq |     |
+| $\mid$ | \mid |     |
+| $\ll$ | \ll |     |
+| $\gg$ | \gg |     |
+| $\asymp$ | \asymp |     |
+| $\parallel$ | \parallel |     |
+| $\approx$ | \approx |     |
+| $\cong$ | \cong |     |
+| $\neq$ | \neq | 不等于 |
+| $\doteq$ | \doteq |     |
+| $\propto$ | \propto |     |
+| $\bowtie$ | \bowtie |     |
+| $\Join$ | \Join |     |
+| $\smile$ | \smile |     |
+| $\frown$ | \frown |     |
+| $\vdash$ | \vdash |     |
+| $\dashv$ | \dashv |     |
