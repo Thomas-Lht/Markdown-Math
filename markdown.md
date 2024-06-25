@@ -1,25 +1,38 @@
 # Markdown公式、符号总结
 - [Markdown公式、符号总结](#markdown公式符号总结)
-  - [常见公式](#常见公式)
-    - [1、向量公式](#1向量公式)
-    - [2、分段函数](#2分段函数)
-    - [3、多行表达公式](#3多行表达公式)
-  - [常见公式环境](#常见公式环境)
-  - [公式编辑的编号设置](#公式编辑的编号设置)
-  - [矩阵](#矩阵)
-    - [1、不带括号的矩阵](#1不带括号的矩阵)
-    - [2、带小括号的矩阵](#2带小括号的矩阵)
-    - [3、带中括号的矩阵](#3带中括号的矩阵)
-    - [4、带大括号的矩阵](#4带大括号的矩阵)
-    - [5、带省略号的矩阵](#5带省略号的矩阵)
-    - [6、带横线/竖线分割的矩阵：](#6带横线竖线分割的矩阵)
-  - [上下标符号](#上下标符号)
-  - [括号](#括号)
-  - [分式与根式](#分式与根式)
-  - [开方](#开方)
-  - [累加/累乘](#累加累乘)
-  - [三角函数](#三角函数)
-  - [对数函数](#对数函数)
+	- [常见公式](#常见公式)
+		- [1、向量公式](#1向量公式)
+		- [2、分段函数](#2分段函数)
+		- [3、多行表达公式](#3多行表达公式)
+	- [常见公式环境](#常见公式环境)
+	- [公式编辑的编号设置](#公式编辑的编号设置)
+	- [矩阵](#矩阵)
+		- [1、不带括号的矩阵](#1不带括号的矩阵)
+		- [2、带小括号的矩阵](#2带小括号的矩阵)
+		- [3、带中括号的矩阵](#3带中括号的矩阵)
+		- [4、带大括号的矩阵](#4带大括号的矩阵)
+		- [5、带省略号的矩阵](#5带省略号的矩阵)
+		- [6、带横线/竖线分割的矩阵：](#6带横线竖线分割的矩阵)
+	- [上下标符号](#上下标符号)
+	- [括号](#括号)
+	- [分式与根式](#分式与根式)
+	- [开方](#开方)
+	- [累加/累乘](#累加累乘)
+	- [三角函数](#三角函数)
+	- [对数函数](#对数函数)
+	- [二元运算符](#二元运算符)
+	- [关系符号](#关系符号)
+	- [极限](#极限)
+	- [向量](#向量)
+	- [模运算](#模运算)
+	- [箭头](#箭头)
+	- [集合](#集合)
+	- [微积分](#微积分)
+	- [逻辑运算](#逻辑运算)
+	- [希腊字母](#希腊字母)
+	- [省略号](#省略号)
+	- [空格](#空格)
+	- [其他符号](#其他符号)
 
 
 ## <a id="t1"></a><a id="_1"></a>常见公式
@@ -669,7 +682,7 @@ $$
 | $\bigg( x \bigg)$| \bigg( x \bigg) |     |
 | $\Bigg( x \Bigg)$| \Bigg( x \Bigg) |     |
 | $\Bigg(\bigg(\Big(\big((x)\big)\Big)\bigg)\Bigg)$ | \Bigg(\bigg(\Big(\big((x)\big)\Big)\bigg)\Bigg) |     |
-| $\Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg]$ | \Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg] |     |
+| $\Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg]$ | \Bigg\[\bigg\[\Big\[\big\[\[x\]\big\]\Big\]\bigg\]\Bigg\] |     |
 | $\Bigg\langle\bigg\langle\Big\langle\big\langle\langle x \rangle \big\rangle\Big\rangle\bigg\rangle\Bigg\rangle$| \Bigg\langle\bigg\langle\Big\langle\big\langle\langle x \rangle\big\rangle\Big\rangle\bigg\rangle\Bigg\rangle |     |
 | $\Bigg\lvert\bigg\lvert\Big\lvert\big\lvert\lvert x \rvert\big\rvert\Big\rvert\bigg\rvert\Bigg\rvert$| \Bigg\lvert\bigg\lvert\Big\lvert\big\lvert\lvert x \rvert\big\rvert\Big\rvert\bigg\rvert\Bigg\rvert |     |
 | $\Bigg\lVert\bigg\lVert\Big\lVert\big\lVert\lVert x \rVert\big\rVert\Big\rVert\bigg\rVert\Bigg\rVert$ | \Bigg\lVert\bigg\lVert\Big\lVert\big\lVert\lVert x \rVert\big\rVert\Big\rVert\bigg\rVert\Bigg\rVert |     |
@@ -820,3 +833,224 @@ $$x=a_0 + \cfrac{1^2}{a_ 1+\cfrac{2^2}{a_2+\cfrac{3^2}{a_3+ \cfrac{4^2}{a_4+...}
 | $\frown$ | \frown |     |
 | $\vdash$ | \vdash |     |
 | $\dashv$ | \dashv |     |
+
+## <a id="t23"></a><a id="_819"></a>极限
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $\lim$ | \lim | 极限使用`\lim` |
+| $\rightarrow$ | \rightarrow | 趋向于使用`\rightarrow` |
+| $\infty$ | \infty | 无穷使用`\infty` |
+| $\lim_{n\rightarrow+\infty}n$ | \lim_{n\rightarrow+\infty}n |     |
+
+## <a id="t24"></a><a id="_827"></a>向量
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| --- | --- | --- |
+| $\vec{a}$ | \vec{a} | 向量使用`\vec{a}` |
+| $J(\mathbf{w})$ | J(\mathbf{w}) | 向量使用`\mathbf{w}` |
+
+## <a id="t25"></a><a id="_832"></a>模运算
+
+模运算使用`\pmod`来表示。示例如下：
+
+**数学算式：**  
+$a \equiv b \pmod n$
+
+**Markdown公式：**
+```
+$a \equiv b \pmod n$
+```
+
+## <a id="t26"></a><a id="_843"></a>箭头
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $\uparrow$ | \uparrow |     |
+| $\downarrow$ | \downarrow |     |
+| $\updownarrow$ | \updownarrow |     |
+| $\Uparrow$ | \Uparrow |     |
+| $\Downarrow$ | \Downarrow |     |
+| $\Updownarrow$ | \Updownarrow |     |
+| $\rightarrow$ | \rightarrow |     |
+| $\leftarrow$ | \leftarrow |     |
+| $\leftrightarrow$ | \leftrightarrow |     |
+| $\Rightarrow$ | \Rightarrow |     |
+| $\Leftarrow$ | \Leftarrow |     |
+| $\Leftrightarrow$ | \Leftrightarrow |     |
+| $\longrightarrow$ | \longrightarrow |     |
+| $\longleftarrow$ | \longleftarrow |     |
+| $\longleftrightarrow$ | \longleftrightarrow |     |
+| $\Longrightarrow$ | \Longrightarrow |     |
+| $\Longleftarrow$ | \Longleftarrow |     |
+| $\Longleftrightarrow$ | \Longleftrightarrow |     |
+| $\mapsto$ | \mapsto |     |
+| $\longmapsto$ | \longmapsto |     |
+| $\hookleftarrow$ | \hookleftarrow |     |
+| $\hookrightarrow$ | \hookrightarrow |     |
+| $\rightharpoonup$ | \rightharpoonup |     |
+| $\leftharpoondown$ | \leftharpoondown |     |
+| $\rightleftharpoons$ | \rightleftharpoons |     |
+| $\leftharpoonup$ | \leftharpoonup |     |
+| $\rightharpoondown$ | \rightharpoondown |     |
+| $\leadsto$ | \leadsto |     |
+| $\nearrow$ | \nearrow |     |
+| $\searrow$ | \searrow |     |
+| $\swarrow$ | \swarrow |     |
+| $\nwarrow$ | \nwarrow |     |
+
+## <a id="t27"></a><a id="_878"></a>集合
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| --- | --- | --- |
+| $\emptyset$ | \emptyset | 空集  |
+| $\varnothing$ | \varnothing | 空   |
+| $\in$ | \in | 属于  |
+| $\ni$ | \ni |     |
+| $\notin$ | \notin | 不属于 |
+| $\subset$ | \subset | 子集  |
+| $\supset$ | \supset | 父集  |
+| $\not\subset$ | \not\subset | 非子集 |
+| $\subseteq$ | \subseteq | 真子集 |
+| $\subsetneq$ | \subsetneq | 非子集 |
+| $\supseteq$ | \supseteq |     |
+| $\cup$ | \cup | 并集  |
+| $\bigcup$ | \bigcup | 并集  |
+| $\cap$ | \cap | 交集  |
+| $\bigcap$ | \bigcap | 交集  |
+| $\uplus$ | \uplus | 多重集 |
+| $\biguplus$ | \biguplus | 多重集 |
+| $\sqsubset$ | \sqsubset |     |
+| $\sqsupset$ | \sqsupset |     |
+| $\sqcap$ | \sqcap |     |
+| $\sqsubseteq$ | \sqsubseteq |     |
+| $\sqsupseteq$ | \sqsupseteq |     |
+| $\vee$ | \vee |     |
+| $\wedge$ | \wedge |     |
+| $\setminus$ | \setminus | 差集  |
+
+## <a id="t28"></a><a id="_906"></a>微积分
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $\prime$ | \prime | 一阶导数 |
+| $\int$ | \int | 一重积分 |
+| $\iint$ | \iint | 双重积分 |
+| $\iiint$ | \iiint | 三重积分 |
+| $\oint$ | \oint | 曲线积分 |
+| $\nabla$ | \nabla | 梯度  |
+| $\int_0^2 x^2 dx$ | \int_0^2 x^2 dx | 其他的积分符号类似 |
+
+## <a id="t29"></a><a id="_917"></a>逻辑运算
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $\because$ | \because | 因为  |
+| $\therefore$ | \therefore | 所以  |
+| $\forall$ | \forall | 任意  |
+| $\exist$ | \exist | 存在  |
+| $\vee$ | \vee | 逻辑与 |
+| $\wedge$ | \wedge | 逻辑或 |
+| $\bigvee$ | \bigvee | 逻辑与 |
+| $\bigwedge$ | \bigwedge | 逻辑或 |
+
+## <a id="t30"></a><a id="_928"></a>希腊字母
+
+| 大写  | Markdown公式 | 小写  | Markdown公式 |
+| :-: | :-: | :-: | :-: |
+| $\Alpha$ | \Alpha | $\alpha$ | \alpha |
+| $\Beta$ | \Beta | $\beta$ | \beta |
+| $\Gamma$ | \Gamma | $\gamma$ | \gamma |
+| $\Delta$ | \Delta | $\delta$ | \delta |
+| $\Epsilon$ | \Epsilon | $\epsilon$ | \epsilon |
+|     |     | $\varepsilon$ |\varepsilon |
+| $\Zeta$ | \Zeta | $\zeta$ | \zeta |
+| $\Eta$ | \Eta | $\eta$ | \eta |
+| $\Theta$ | \Theta | $\theta$ | \theta |
+| $\Iota$ | \Iota | $\iota$ | \iota |
+| $\Kappa$ | \Kappa | $\kappa$ | \kappa |
+| $\Lambda$ | \Lambda | $\lambda$ | \lambda |
+| $\Mu$ | \Mu | $\mu$ | \mu |
+| $\Nu$ | \Nu | $\nu$ | \nu |
+| $\Xi$ | \Xi | $\xi$ | \xi |
+| $\Omicron$ | \Omicron | $\omicron$ | \omicron |
+| $\Pi$ | \Pi | $\pi$ | \pi |
+| $\Rho$ | \Rho | $\rho$ | \rho |
+| $\Sigma$ | \Sigma | $\sigma$ | \sigma |
+| $\Tau$ | \Tau | $\tau$ | \tau |
+| $\Upsilon$ | \Upsilon | $\upsilon$ | \upsilon |
+| $\Phi$ | \Phi | $\phi$ | \phi |
+|     |     | $\varphi$ | \varphi |
+| $\Chi$ | \Chi | $\chi$ | \chi |
+| $\Psi$ | \Psi | $\psi$ | \psi |
+| $\Omega$ | \Omega | $\omega$ | \omega |
+
+## <a id="t31"></a><a id="_958"></a>省略号
+
+不同省略号的区别是==点的位置不同==，`\ldots` 位置稍低，`\cdots` 位置居中。
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| --- | --- | --- |
+| $\dots$ | \dots | 一般用于有下标的序列 |
+| $\ldots$ | \ldots |     |
+| $\cdots$ | \cdots | 纵向位置比\\dots稍高 |
+| $\vdots$ | \vdots | 竖向  |
+| $\ddots$ | \ddots |     |
+
+示例如下：
+
+**Markdown公式**
+
+```
+$$
+x_1, x_2, \dots, x_n \quad \quad 1, 2, \cdots, n \quad \quad \vdots \quad\quad \ddots
+$$
+```
+
+**数学算式**  
+$$
+x_1, x_2, \dots, x_n \quad \quad 1, 2, \cdots, n \quad \quad \vdots \quad\quad \ddots
+$$
+
+## <a id="t32"></a><a id="_980"></a>空格
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $123\!123$ | 123\!123 | 空格距离：-3/18 em |
+| $123\,123$ | 123\,123 | 空格距离：3/18 em |
+| $123\:123$ | 123\:123 | 空格距离：4/18 em |
+| $123\;123$ | 123\;123 | 空格距离：5/18 em |
+| $123\quad123$ | 123\quad123 | 空格距离：1 em |
+| $123\qquad123$ | 123\qquad123 | 空格距离：2 em |
+
+**上表中的em是指当前文本中文本的字体尺寸**
+
+## <a id="t33"></a><a id="_992"></a>其他符号
+
+| 数学算式 | Markdown公式 | 核心语法 |
+| :-: | :-: | :-: |
+| $\aleph$ | \aleph |     |
+| $\hbar$ | \hbar |     |
+| $\imath$ | \imath |     |
+| $\jmath$ | \jmath |     |
+| $\ell$ | \ell |     |
+| $\wp$ | \wp |     |
+| $\Re$ | \Re |     |
+| $\Im$ | \Im |     |
+| $\mho$ | \mho |     |
+| $\nabla$ | \nabla |     |
+| $\surd$ | \surd |     |
+| $\top$ | \top |     |
+| $\bot$ | \bot |     |
+| $\neg$ | \neg |     |
+| $\flat$ | \flat |     |
+| $\natural$ | \natural |     |
+| $\sharp$ | \sharp |     |
+| $\backslash$ | \backslash |     |
+| $\partial$ | \partial |     |
+| $\Box$ | \Box |     |
+| $\clubsuit$ | \clubsuit |     |
+| $\diamondsuit$ | \diamondsuit |     |
+| $\heartsuit$ | \heartsuit |     |
+| $\spadesuit$ | \spadesuit |     |
+
